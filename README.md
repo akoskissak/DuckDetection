@@ -41,8 +41,10 @@ Output:
 ## How it Works
 Color Thresholding:
 - Applies color masks to detect colors typically associated with ducks: white, yellow, and brown.
+  
 Contour Detection:
 - Filters contours based on area to match likely duck sizes, then counts those contours.
+  
 Error Calculation:
 - Compares the detected count to the actual count and calculates the MAE for accuracy assessment.
 
