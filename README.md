@@ -48,6 +48,14 @@ Contour Detection:
 Error Calculation:
 - Compares the detected count to the actual count and calculates the MAE for accuracy assessment.
 
+## Example
+#### Preprocessing image:
+
+![DuckImage](https://github.com/akoskissak/DuckDetection/blob/main/duck_result_example.png)
+
+#### Image with contours:
+
+![ContoursImage](https://github.com/akoskissak/DuckDetection/blob/main/duck_result_example_contours.png)
 ## Notes
 -  The script currently crops each image to a specific region (`img[250:800, 180:800]`) to focus on the likely duck-containing area. Adjust these coordinates as needed.
 - The color ranges and contour area thresholds are adjustable to improve detection based on your specific images.
